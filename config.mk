@@ -6,6 +6,10 @@
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/miuicamera-beryllium/miuicamera-beryllium-vendor.mk)
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Config
 PRODUCT_COPY_FILES += \
     device/xiaomi/miuicamera-beryllium/config/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/miuicamera-permissions.xml \
