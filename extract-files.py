@@ -11,12 +11,12 @@ from extract_utils.main import (
 
 namespace_imports = [
     'vendor/xiaomi/sdm845-common',
-    'vendor/xiaomi/beryllium',
+    'vendor/xiaomi/dipper',
 ]
 
 
 module = ExtractUtilsModule(
-    'miuicamera-beryllium',
+    'miuicamera-dipper',
     'xiaomi',
     namespace_imports=namespace_imports,
 )

@@ -4,9 +4,9 @@
 #
 
 # Inherit from the proprietary version
-include vendor/xiaomi/miuicamera-beryllium/BoardConfigVendor.mk
+include vendor/xiaomi/miuicamera-dipper/BoardConfigVendor.mk
 
-MIUICAMERA_PATH := device/xiaomi/miuicamera-beryllium
+MIUICAMERA_PATH := device/xiaomi/miuicamera-dipper
 
 # Properties
 TARGET_SYSTEM_PROP += $(MIUICAMERA_PATH)/system.prop
