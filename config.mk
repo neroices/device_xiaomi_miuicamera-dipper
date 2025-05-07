@@ -13,7 +13,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Config
 PRODUCT_COPY_FILES += \
     device/xiaomi/miuicamera-dipper/config/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/miuicamera-permissions.xml \
-    device/xiaomi/miuicamera-dipper/config/device_features/pyxis.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/dipper.xml \
+    device/xiaomi/miuicamera-dipper/config/device_features/pyxis.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/device_features/pyxis.xml \
     device/xiaomi/miuicamera-dipper/config/permissions/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
     device/xiaomi/miuicamera-dipper/config/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.front.xml \
     device/xiaomi/miuicamera-dipper/config/permissions/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.camera.full.xml \
